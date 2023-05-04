@@ -1,8 +1,8 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/influencer/examplesite/"
 languageCode = "en-us"
-title = "Influencer"
-theme = "influencer-hugo"
+title = "OffshoreTaxTips.com"
+theme = "ott"
 summaryLength = "10"
 paginate = 6
 
@@ -43,15 +43,15 @@ name = "Chapter"
 URL = "chapter"
 weight = 2
 
-[[menu.main]]
-name = "Reviews"
-URL = "review"
-weight = 3
+#[[menu.main]]
+#name = "Reviews"
+#URL = "review"
+#weight = 3
 
-[[menu.main]]
-name = "Author"
-URL = "author"
-weight = 4
+#[[menu.main]]
+#name = "Author"
+#URL = "author"
+#weight = 4
 
 [[menu.main]]
 name = "Blog"
@@ -70,11 +70,11 @@ logo = ""
 home = "Home"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "OTT"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2021 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+copyright = "Copyright &copy; 2023 OffshoreTaxTips.com -  All Rights Reserved"
 
 # Preloader
 [params.preloader]
@@ -92,7 +92,7 @@ expire_days = 2
 
 ############################# Footer ########################
 [params.footer]
-content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+content = "This website and all the content in it, including all content in the ebook was written directly by the author at OffshoreTaxTips.com and consists of direct knowledge acquired throughout my career as an offshore corporate lawyer."
 
 
 ############################# post share ###################
