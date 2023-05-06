@@ -26,5 +26,10 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.ico` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.ico` | absURL }} " type="image/x-icon">
-
+<div class="bundles">
+  <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+  <stripe-pricing-table pricing-table-id="prctbl_1N4BkBDj4ByYrwGMyt2lU2I2"
+  publishable-key="pk_test_51N41qlDj4ByYrwGM2YOrJpuRSeifDlqVPkqfUHiWZ2mDXQUooy0Nt68o4ecUFnCZbjnKEqV9OEECcM3j3D4K0cfe00tmlKHooK">
+  </stripe-pricing-table>
+</div>
 </head>

@@ -4,7 +4,9 @@ banner:
   writter : ""
   title : "How to keep ALL of your Online Profit"
   image : "images/about/book.png"
-  content : "This e-book explains in simple, non-technical language how to structure your online business so you can legally avoid paying as much tax as possible for every dollar you make through your online business. This e-book is for content creators, social media influencers, creative freelancers, e-commerce store owners or any other person making profits online."
+  content : "This e-book explains in simple, non-technical language how to structure your online business so you can legally avoid paying as much tax as possible for every dollar you make through your online business.\n
+  
+  This e-book is for content creators, social media influencers, creative freelancers, e-commerce store owners or any other person making profits online."
   price : "49"
 
 ######################## Book Preview ##########################
@@ -58,7 +60,7 @@ service:
 ######################### Quote #############################
 quote:
   enable : true
-  quote: "It does a great job speaking to laymen and getting to the point of offering solid, actionable value."
+  quote: "The eBook does a great job speaking to laymen and getting to the point of offering solid, actionable value."
   quoteBy: ""
 
 
@@ -164,18 +166,17 @@ devices:
 
 ######################################## author #############################
 author:
-  enable : false
-  image : "images/about/home-1.jpg"
-  name : "Yasin Arafat"
-  designation : "A technical Writer"
+  enable : true
+  image : "images/about/office.png"
+  name : "The Author"
+  designation : "Offshore Corporate Lawyer"
   content : "
-  Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
-
-
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+  The author has been a corporate and finance lawyer for over 10 years and has spent many of those years working in one of the largest law firms in both the Cayman Islands and the British Virgin Islands. \n
+  
+  The author has set up countless offshore companies in those locations and is on a mission to bring ease of access to the digital entrepreneurs across the globe."
 
   # signature
-  signature : "images/about/2.png"
+  signature : ""
 
 
 ################################ Awards #####################################
@@ -240,7 +241,7 @@ contact:
     - title : "Contact Quickly"
       icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "+1800 123 123"
+        - listItem : " "
         
     # contact Item loop
     - title : "Email"
