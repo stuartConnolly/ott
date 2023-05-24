@@ -35,6 +35,10 @@
 {{ end }}
 {{ end }}
 
+<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+<stripe-pricing-table pricing-table-id="prctbl_1NAheJDj4ByYrwGM0fRe5rbP"
+publishable-key="pk_live_51N41qlDj4ByYrwGM28l5Evutgl4qKXjbIrmiRc1kKtzwgD7kH6xDDDCZFVew8IAMUxjuFSWXt4ET37aSqbzmQCQ400gMZ6RXkb">
+</stripe-pricing-table>
 
 <!-- Book preview -->
 {{ if .Site.Data.homepage.preview.enable }}
@@ -349,7 +353,7 @@
       {{ end }}
     </div>
     <div class="text-center mt-5">
-      <a href="/exampleSite/" class="btn btn-main">All Posts</a>
+      <a href="#" class="btn btn-main">All Posts</a>
     </div>
   </div>
 </section>
